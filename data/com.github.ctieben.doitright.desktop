@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Do It Right!
+GenericName= Do It Right!
+Comment=A get things done and project manager written in Vala with Gtk.
+Categories=Utility;Office
+Exec=com.github.tietech.doitright
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=GTD;Project;Manager;

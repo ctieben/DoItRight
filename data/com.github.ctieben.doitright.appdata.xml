@@ -1,0 +1,17 @@
+<?cml version=1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Christoph Tieben (ctieben@gmx.de) -->
+
+<component type="desktop">
+    <id>com.github.ctieben.doitright</id>
+    <metadata_license>CC0<metadata_license>
+    <name>Do It Right!</name>
+    <summary>A "Get Things Done" (GTD) and project managemnt tool</summary>
+    <description>
+        <p> To be done ... </p>
+    </description>
+
+
+    <custom>
+        <value key="x-appcenter-suggested-price">8</value>
+    </custom>
+</component>
