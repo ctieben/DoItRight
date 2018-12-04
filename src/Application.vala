@@ -27,7 +27,7 @@ public class DoItRight : Gtk.Application {
         main_window.title = "DoItRight!";
 
         // add label
-        var label = new Gtk.Label("Many things to do!");
+        var label = new Gtk.Label(_("Many things to do!"));
         main_window.add(label);
 
 

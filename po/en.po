@@ -1,0 +1,48 @@
+# English translations for com.github.ctieben.doitright package.
+# Copyright (C) 2018 THE com.github.ctieben.doitright'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.ctieben.doitright package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.ctieben.doitright\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-04 11:28+0100\n"
+"PO-Revision-Date: 2018-12-04 11:28+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Application.vala:30
+msgid "Many things to do!"
+msgstr "Many things to do!"
+
+#: data/com.github.ctieben.doitright.desktop.in:3
+#: data/com.github.ctieben.doitright.desktop.in:4
+#: data/com.github.ctieben.doitright.appdata.xml.in:7
+msgid "Do It Right!"
+msgstr "Do It Right!"
+
+#: data/com.github.ctieben.doitright.desktop.in:5
+msgid "A get things done and project manager written in Vala with Gtk."
+msgstr "A get things done and project manager written in Vala with Gtk."
+
+#: data/com.github.ctieben.doitright.desktop.in:8
+msgid "application-default-icon"
+msgstr "application-default-icon"
+
+#: data/com.github.ctieben.doitright.desktop.in:11
+msgid "GTD;Project;Manager;"
+msgstr "GTD;Project;Manager;"
+
+#: data/com.github.ctieben.doitright.appdata.xml.in:8
+msgid "A \"Get Things Done\" (GTD) and project managemnt tool"
+msgstr "A \"Get Things Done\" (GTD) and project managemnt tool"
+
+#: data/com.github.ctieben.doitright.appdata.xml.in:10
+msgid "To be done ..."
+msgstr "To be done ..."
