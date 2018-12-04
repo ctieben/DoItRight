@@ -26,10 +26,17 @@ public class DoItRight : Gtk.Application {
         main_window.default_width = 300;
         main_window.title = "DoItRight!";
 
-        // add label
-        var label = new Gtk.Label(_("Many things to do!"));
-        main_window.add(label);
+        Poppler.Document doc;
+        try {
+            doc = new Poppler.Document.from_file(Filename.to_uri("/home/ctieben/Downloads/Folien.pdf"), "");
+        } catch (Error e) {
+            error ("%s", e.message);
+        }
 
+        // add label
+        var label = new Gtk.Label("Many things to do!");
+        label.set_text(doc.title);
+        main_window.add(label);
 
         main_window.show_all();
     }

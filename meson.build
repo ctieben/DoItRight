@@ -7,7 +7,8 @@ executable(
     meson.project_name(),
     'src/Application.vala',
     dependencies: [
-        dependency('gtk+-3.0')
+        dependency('gtk+-3.0'),
+        dependency('poppler-glib')
     ],
     install: true
 )

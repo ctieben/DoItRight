@@ -1,0 +1,7 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: doitright
+Source: https://github.com/ctieben/DoItRight
+
+Files: src/* data/* debian/*
+Copyright: 2018 Christoph Tieben <ctieben@gmx.de>
+License: MPL-2
