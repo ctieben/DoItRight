@@ -28,9 +28,9 @@ public class DoItRight : Gtk.Application {
 
         Poppler.Document doc;
         try {
-            doc = new Poppler.Document.from_file(Filename.to_uri("/home/ctieben/Downloads/Folien.pdf"), "");
+            doc = new Poppler.Document.from_file(Filename.to_uri("/home/ctieben/Downloads/thelinuxcommandline.pdf"), "");
         } catch (Error e) {
-            error ("%s", e.message);
+            doc = null;
         }
 
         // add label

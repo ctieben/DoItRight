@@ -1,0 +1,38 @@
+ 
+{
+    "version": "2.0.0",
+    "command": "valac",
+    "args": [
+        // Pass your files here
+        "${workspaceFolder}/src/Application.vala", 
+        // And your dependencies
+        "--pkg=gtk+-3.0",
+        "--pkg=poppler-glib"
+    ],
+    "suppressTaskName": true,
+    "problemMatcher": [
+        "$valac"
+    ],
+    "tasks": [
+        {
+            "taskName": "Compile w/ Debug",
+            "args": [
+                "-g"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "taskName": "Compile w/ Debug and C files",
+            "args": [
+                "-g",
+                "--save-temps"
+            ]
+        },
+        {
+            "taskName": "Compile Release"
+        }
+    ]
+}
